@@ -117,7 +117,7 @@ func (c *Config) NewClient() (klient.Client, error) {
 
 // Client is a constructor function that returns a previously
 // created klient.Client or create a new one based on configuration
-// previously set. Willpanic on any error so it recommended that you
+// previously set. Will panic on any error so it recommended that you
 // are confident in the configuration or call NewClient() to ensure its
 // safe creation.
 func (c *Config) Client() klient.Client {
